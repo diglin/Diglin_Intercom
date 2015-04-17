@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Diglin GmbH - Switzerland
+ *
+ * @author      Sylvain Rayé <support at diglin.com>
+ * @category    Diglin
+ * @package     Diglin_Intercom
+ * @copyright   Copyright (c) 2011-2015 Diglin (http://www.diglin.com)
+ */
+-->
+<config>
+    <modules>
+        <Diglin_Intercom>
+            <version>0.1.0</version>
+        </Diglin_Intercom>
+    </modules>
+
+    <default>
+        <diglin_intercom>
+            <config>
+                <enabled>1</enabled>
+                <app_id></app_id>
+                <test_mode>0</test_mode>
+                <app_id_test></app_id_test>
+            </config>
+        </diglin_intercom>
+    </default>
+
+    <global>
+        <blocks>
+            <diglin_intercom>
+                <class>Diglin_Intercom_Block</class>
+            </diglin_intercom>
+        </blocks>
+
+        <helpers>
+            <diglin_intercom>
+                <class>Diglin_Intercom_Helper</class>
+            </diglin_intercom>
+        </helpers>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <diglin_intercom>
+                    <file>diglin/intercom.xml</file>
+                </diglin_intercom>
+            </updates>
+        </layout>
+    </frontend>
+</config>

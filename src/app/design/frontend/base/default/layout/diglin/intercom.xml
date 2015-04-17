@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Diglin GmbH - Switzerland
+ *
+ * @author      Sylvain Rayé <support at diglin.com>
+ * @category    Diglin
+ * @package     Diglin_Intercom
+ * @copyright   Copyright (c) 2011-2015 Diglin (http://www.diglin.com)
+ */
+-->
+<layout version="0.1.0">
+    <default>
+        <reference name="before_body_end">
+            <block type="diglin_intercom/widget" ifconfig="diglin_intercom/config/enabled" name="intercom_widget" as="intercom_widget"/>
+        </reference>
+    </default>
+</layout>

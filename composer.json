@@ -1,0 +1,16 @@
+{
+    "name": "diglin/intercom",
+    "type":"magento-module",
+    "description": "Magento Extension for the service intercom.io",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sylvain Rayé",
+            "email": "support@diglin.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    }
+}

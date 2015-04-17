@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Diglin GmbH - Switzerland
+ *
+ * @author      Sylvain Rayé <sylvain.raye at diglin.com>
+ * @category    Diglin
+ * @package     Diglin_Intercom
+ * @copyright   Copyright (c) 2011-2015 Diglin (http://www.diglin.com)
+ */
+-->
+<config>
+    <modules>
+        <Diglin_Intercom>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Diglin_Intercom>
+    </modules>
+</config>

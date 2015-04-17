@@ -1,0 +1,4 @@
+src/app/code/community/Diglin/Intercom app/code/community/Diglin/Intercom
+src/app/design/frontend/base/default/layout/diglin/intercom.xml app/design/frontend/base/default/layout/diglin/intercom.xml
+src/app/design/frontend/base/default/template/diglin/intercom app/design/frontend/base/default/template/diglin/intercom
+src/app/etc/modules/Diglin_Intercom.xml app/etc/modules/Diglin_Intercom.xml
