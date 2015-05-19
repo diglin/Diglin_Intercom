@@ -1,5 +1,5 @@
 {
-    "name": "diglin/intercom",
+    "name": "diglin/diglin_intercom",
     "type":"magento-module",
     "description": "Magento Extension for the service intercom.io",
     "license": "proprietary",
