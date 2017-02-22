@@ -20,7 +20,18 @@ class Diglin_Intercom_Block_Widget extends Mage_Core_Block_Template
      */
     public function getAppId()
     {
+        if (Mage::getStoreConfigFlag(Diglin_Intercom_Helper_Data::CFG_TESTMODE)) {
+            return $this->getTestAppId();
+        }
+
         return Mage::getStoreConfig(Diglin_Intercom_Helper_Data::CFG_APPID);
+    }
+
+    /**
+     * @return string | null
+     */
+    public function getTestAppId() {
+        return Mage::getStoreConfig(Diglin_Intercom_Helper_Data::CFG_TESTAPPID);
     }
 
     /**

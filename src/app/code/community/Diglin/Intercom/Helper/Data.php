@@ -15,4 +15,6 @@ class Diglin_Intercom_Helper_Data extends Mage_Core_Helper_Abstract
 {
     const CFG_ENABLED = 'diglin_intercom/config/enabled';
     const CFG_APPID = 'diglin_intercom/config/app_id';
+    const CFG_TESTMODE = 'diglin_intercom/config/test_mode';
+    const CFG_TESTAPPID = 'diglin_intercom/config/app_id_test';
 }
