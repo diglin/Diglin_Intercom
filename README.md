@@ -1,6 +1,6 @@
 # Diglin Intercom - Magento 1.x Module #
 
-This <b>OFFICIAL</b> Magento extension displays the [Intercom.com](https://www.intercom.com/) Chat Widget into your shop. Main advantage of this extension is to configure the chat widget in a fast way directly from your Magento installation and customize it per each store and store view.
+This Magento extension displays the [Intercom.com](https://www.intercom.com/) Chat Widget into your shop. Main advantage of this extension is to configure the chat widget in a fast way directly from your Magento installation and customize it per each store and store view.
 
 Please visit [Intercom.com](https://www.intercom.com/) to create an account.
 
